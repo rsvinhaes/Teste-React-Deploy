@@ -1,0 +1,13 @@
+.containerDetailProduct {
+    background-color: #E5E5E5;
+    min-height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 64px;
+}
+
+span {
+    color: #383842;
+}
