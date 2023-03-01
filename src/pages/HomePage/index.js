@@ -45,7 +45,7 @@ function Home() {
     useEffect(() => {
         handleSearch()
 
-    }, [search])
+    }, [])
 
     return (
         <>

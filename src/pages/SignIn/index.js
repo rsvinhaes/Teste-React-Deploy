@@ -1,5 +1,4 @@
 import './styles.css'
-import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import Logo from '../../assets/logo.svg'
 import Button from '@material-ui/core/Button';
