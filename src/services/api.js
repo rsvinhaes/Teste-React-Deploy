@@ -2,7 +2,7 @@ import axios from 'axios'
 import { getItem } from '../utils/storage'
 
 const api = axios.create({
-    baseURL: 'https://rsvinhaes-desafio-md5.herokuapp.com/',
+    baseURL: 'https://rsvinhaes-desafio-md5.herokuapp.com',
     timeout: 10000,
     headers: { 'Content-Type': 'application/json' }
 })

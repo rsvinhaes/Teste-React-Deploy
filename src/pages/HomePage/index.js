@@ -1,9 +1,8 @@
-import './style.css';
-import { useEffect, useState } from 'react'
-import NavBar from '../../componentes/NavBar/index'
-import ProductCard from '../../componentes/ProductCard/index'
-import api from '../../services/api';
+import { useEffect, useState } from 'react';
+import NavBar from '../../componentes/NavBar/index';
 import Paginate from '../../componentes/Pagination/index';
+import api from '../../services/api';
+import './style.css';
 
 function Home() {
 

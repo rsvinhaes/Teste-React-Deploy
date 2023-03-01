@@ -12,14 +12,14 @@ import { useStyles } from '../../componentes/styles/signIn-signUp/style'
 import Container from '@material-ui/core/Container';
 import { Box, InputLabel } from '@material-ui/core';
 import { useNavigate } from 'react-router-dom';
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import api from '../../services/api';
 import useGlobalContext from '../../hooks/useGlobalContext'
 
 
 export default function SignIn() {
 
-  const { token, setToken, setUser } = useGlobalContext()
+  const { setToken, setUser } = useGlobalContext()
   const navigate = useNavigate()
   const [email, setEmail] = useState('')
   const [senha, setSenha] = useState('')
@@ -54,11 +54,11 @@ export default function SignIn() {
     }
   }
 
-  useEffect(() => {
-    if (token) {
-      navigate('/Main')
-    }
-  }, [])
+  // useEffect(() => {
+  //   if (token) {
+  //     navigate('/Main')
+  //   }
+  // }, [])
 
 
   return (

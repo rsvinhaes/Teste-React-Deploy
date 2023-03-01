@@ -1,6 +1,6 @@
 import './style.css';
 // import api from '../../services/api'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 
 function Main() {
 
