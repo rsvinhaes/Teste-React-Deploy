@@ -42,10 +42,10 @@ function Home() {
 
     }, [])
 
-    useEffect(() => {
-        handleSearch()
+    // useEffect(() => {
+    //     handleSearch()
 
-    }, [])
+    // }, [])
 
     return (
         <>
