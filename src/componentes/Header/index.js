@@ -20,11 +20,8 @@ export default function PrimarySearchAppBar() {
 
     const navigate = useNavigate()
     const classes = useStyles();
-    const [anchorEl, setAnchorEl] = useState(null);
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState(null);
 
-
-    const isMenuOpen = Boolean(anchorEl);
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
     const handleMobileMenuClose = () => {
